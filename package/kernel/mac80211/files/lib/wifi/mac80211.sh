@@ -123,9 +123,13 @@ detect_mac80211() {
 			${dev_id}
 			${ht_capab}
 <<<<<<< HEAD
+<<<<<<< HEAD
 			set wireless.radio${devidx}.noscan=1
 			set wireless.radio${devidx}.disabled=0
 =======
+=======
+			set wireless.radio${devidx}.disabled=0
+>>>>>>> upstream/master
 
 >>>>>>> upstream/master
 			set wireless.default_radio${devidx}=wifi-iface
